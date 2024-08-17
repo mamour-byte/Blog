@@ -7,6 +7,6 @@ use Illuminate\Http\Request;
 class PostController extends Controller
 {
     public function index(){
-        return 'Hello World';
+        return view('posts.index');
     } 
 }
